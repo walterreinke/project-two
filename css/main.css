@@ -388,4 +388,20 @@ ul {
     margin: 0 auto;
     padding: 15px;
   }
+
+  .resize {
+    float: inherit;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    margin: 12px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slideshow-padding {
+    padding-bottom: 50px;
+  }
 }

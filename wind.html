@@ -51,64 +51,47 @@
       </p>
     </div>
 
-    <!-- <div>
-      <img
-        class="resize"
-        src="./images/turbine-1.jpg"
-        alt="Wind turbines in a field"
-      />
-
-      <img
-        class="resize"
-        src="./images/turbine-3.jpg"
-        alt="Man working on a wind turbine"
-      />
-
-      <img
-        class="resize"
-        src="./images/turbine-2.jpg"
-        alt="Wind turbines in front of a sunset"
-      />
-    </div> -->
-
     <!-- slideshow for the images, following turtorial from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img
-          class="resize"
-          src="./images/turbine-1.jpg"
-          alt="Wind turbines in a field"
-          style="width: 100%"
-        />
-      </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img
-          class="resize"
-          src="./images/turbine-3.jpg"
-          alt="Man working on wind turbine"
-          style="width: 100%"
-        />
-      </div>
+    <div class="slideshow-padding">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img
+            class="resize"
+            src="./images/turbine-1.jpg"
+            alt="Wind turbines in a field"
+            style="width: 100%"
+          />
+        </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img
-          class="resize"
-          src="./images/turbine-4.jpg"
-          alt="Wind Turbines in front of a sunset"
-          style="width: 100%"
-        />
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            class="resize"
+            src="./images/turbine-3.jpg"
+            alt="Man working on wind turbine"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            class="resize"
+            src="./images/turbine-4.jpg"
+            alt="Wind Turbines in front of a sunset"
+            style="width: 100%"
+          />
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
   </body>
 </html>
