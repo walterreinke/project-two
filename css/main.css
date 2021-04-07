@@ -107,6 +107,7 @@ iframe {
   cursor: pointer;
   padding: 14px;
   width: 100%;
+  align-items: center;
   text-align: left;
   border: none;
   outline: none;
@@ -216,4 +217,28 @@ li {
 
 .center {
   text-align: center;
+}
+
+/* coal page (mobile) */
+.section-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 40pt;
+}
+
+.body-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
 }
