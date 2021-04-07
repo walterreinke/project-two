@@ -2,11 +2,11 @@ body {
   background-color: black;
 }
 
-/* .bg-img {
-  background-image: url(https://www.ge.com/news/sites/default/files/styles/full_header/public/Reports/2020-03/steam.jpg?itok=6npaz3Ga);
+.bg-img {
+  background-image: url(https://cleanpower.org/wp-content/uploads/2021/03/data-background-topography-2-dark.jpg);
   background-size: cover;
   background-clip: border-box;
-} */
+}
 
 h1 {
   text-align: center;
@@ -26,10 +26,12 @@ h2 {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
-li {
-  display: inline;
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-images {
@@ -60,11 +62,13 @@ figcaption {
   font-style: italic;
 }
 
+/* This is the css for the nav images on the home page */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
+
 .centered {
   position: absolute;
   top: 50%;
@@ -72,6 +76,7 @@ figcaption {
   transform: translate(-50%, -50%);
 }
 
+/* css for video thumbnails */
 .mw-med {
   max-width: 720px;
   margin: 0 auto;
@@ -125,4 +130,9 @@ iframe {
 footer {
   font-style: italic;
   margin-bottom: 15px;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
 }
