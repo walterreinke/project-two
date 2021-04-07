@@ -304,3 +304,8 @@ li {
 .dot:hover {
   background-color: #717171;
 }
+
+/* credits styles (mobile) */
+ul {
+  padding: 0;
+}
