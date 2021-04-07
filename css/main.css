@@ -7,7 +7,7 @@ body {
 .bg-img {
   background-image: url(https://images.unsplash.com/photo-1534996858221-380b92700493?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -322,6 +322,7 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    padding-bottom: 200px;
   }
 
   .flex > * {
@@ -336,7 +337,7 @@ ul {
     font-weight: bold;
     font-size: 64pt;
   }
-
+  /* 70 px margin bottom */
   .home-subtitle {
     font-size: 40pt;
     font-weight: bold;
@@ -355,5 +356,9 @@ ul {
 
   .home-caption {
     font-size: 18pt;
+  }
+
+  .no-black-space {
+    margin-top: 100px;
   }
 }
