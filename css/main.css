@@ -331,26 +331,23 @@ ul {
   }
 
   .home-title {
-    /* margin-top: 10px;
-    margin-bottom: 5px; */
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 64pt;
   }
-  /* 70 px margin bottom */
+
   .home-subtitle {
     font-size: 40pt;
     font-weight: bold;
     margin-bottom: 30px;
-    /* margin-top: 5px; */
   }
 
   .home-blurb {
     font-size: 18pt;
     font-weight: normal;
     line-height: 1.5;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
     text-align: center;
   }
 
@@ -360,5 +357,35 @@ ul {
 
   .no-black-space {
     margin-top: 100px;
+  }
+
+  /* coal page */
+  .section-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 64pt;
+  }
+
+  .body-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .button-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .mw-med {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 15px;
   }
 }
