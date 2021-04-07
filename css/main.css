@@ -372,8 +372,8 @@ ul {
     font-size: 24px;
     font-weight: normal;
     line-height: 1.5;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .button-text {
@@ -384,7 +384,7 @@ ul {
   }
 
   .mw-med {
-    max-width: 980px;
+    max-width: 880px;
     margin: 0 auto;
     padding: 15px;
   }
@@ -403,5 +403,30 @@ ul {
 
   .slideshow-padding {
     padding-bottom: 50px;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 20px;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    font-size: 24px;
+    font-style: italic;
+    margin: 30px;
+    margin-left: 200px;
+  }
+
+  .grid-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    height: 100%;
   }
 }
