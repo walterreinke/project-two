@@ -145,57 +145,70 @@ li {
   margin: 20px;
 }
 
-/* Mobile Navbar Styles */
+/* navbar styles */
 .topnav {
-  overflow: hidden;
   background-color: black;
+  overflow: hidden;
   position: sticky;
   top: 0;
   left: 0;
   z-index: +1;
 }
 
-.topnav #myLinks {
-  display: none;
-}
-
 .topnav a {
+  float: left;
+  display: block;
   color: #fbb03b;
+  text-align: center;
   padding: 12px 16px;
   text-decoration: none;
-  font-size: 17px;
-  display: block;
+  font-size: 20px;
 }
 
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.nav-links:hover {
+.topnav a:hover {
   background-color: #fbb03b;
   color: black;
 }
 
-.icon:hover {
-  color: white;
-}
-
-.active {
-  background-color: black;
-  color: orange;
+.topnav .icon {
+  display: none;
 }
 
 .logo {
   display: block;
   position: relative;
   right: 30px;
-  bottom: 13px;
+  bottom: 7px;
   width: 200px;
   margin-left: 15px;
+}
+
+/* the code below was sourced from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp. Basically, it is moving everything but the logo into a hamburger menu when the screen is small. When the screen is large, all of links are displayed.*/
+@media (max-width: 767px) {
+  .topnav a:not(.active) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 /* fonts and the like, going through each page finalizing mobile designs */
@@ -428,5 +441,22 @@ ul {
     margin-right: auto;
     width: 880px;
     height: 100%;
+  }
+
+  /* topnav desktop styles */
+  .nav-links {
+    float: right;
+  }
+
+  .topnav a:not(.active) {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 34.55px;
+  }
+
+  .topnav a.active {
+    margin-left: 0;
+    padding-bottom: 0;
+    width: 175px;
   }
 }

@@ -34,16 +34,15 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// js for the mobile navbar, from same website as in the index.html file. this code is saying that if the hamburger menu is in block display, which it always is unless someone clicks on it, then it will be hidden. once it is not in that display, it will be shown. 
+// js for the mobile navbar, from same website as in the index.html file. this makes the class change for the hamburger menu when clicked on, leading to the menu dropping
 function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
     } else {
-      x.style.display = "block";
+      x.className = "topnav";
     }
   }
-
 //   js for the grid slideshow, works pretty much the same as the slide show we made in class, including the functions that make sure you can't go past the last slide
 var slideIndex = 1;
 showSlides(slideIndex);
