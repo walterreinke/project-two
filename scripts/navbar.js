@@ -34,7 +34,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// js for the mobile navbar, from same website as in the index.html file. this makes the class change for the hamburger menu when clicked on, leading to the menu dropping
+// js for the mobile part of the navbar, sourced from same website as in the index.html file. this makes the class change for the div that contains that navbar when clicked on, leading to the menu dropping because the added class has the css for the actual display.
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -43,7 +43,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
-//   js for the grid slideshow, works pretty much the same as the slide show we made in class, including the functions that make sure you can't go past the last slide
+//   js for the grid slideshow, works pretty much the same as the slide show we made in class, including the functions that make sure you can't go past the last slide (taken from same w3schools website)
 var slideIndex = 1;
 showSlides(slideIndex);
 
