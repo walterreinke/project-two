@@ -2,11 +2,11 @@ body {
   background-color: black;
 }
 
-.bg-img {
+/* .bg-img {
   background-image: url(https://cleanpower.org/wp-content/uploads/2021/03/data-background-topography-2-dark.jpg);
   background-size: cover;
   background-clip: border-box;
-}
+} */
 
 h1 {
   text-align: center;
@@ -135,4 +135,56 @@ footer {
 li {
   list-style-type: none;
   margin: 20px;
+}
+
+/* Mobile Navbar Styles */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: +1;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #fbb03b;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-links:hover {
+  background-color: #fbb03b;
+  color: black;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.active {
+  background-color: black;
+  color: orange;
+}
+
+.logo {
+  display: block;
+  position: relative;
+  right: 30px;
+  bottom: 13px;
+  width: 200px;
 }
