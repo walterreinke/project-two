@@ -456,7 +456,6 @@ ul {
 
   .topnav a:not(.active) {
     margin-left: 10px;
-    height: 34.55px;
   }
 
   .topnav a.active {
